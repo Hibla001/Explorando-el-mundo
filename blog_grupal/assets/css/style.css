@@ -1,0 +1,162 @@
+/* Reset de estilos para garantizar la consistencia en diferentes navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background: url(./img/The_world_flag_2006.svg\ \(1\).png);
+  color: whitesmoke;
+  
+}
+
+/* Encabezado */
+header {
+  background-color: #333333;
+  color: whitesmoke;
+  text-align: center;
+  padding: 15px 0;
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* Navegación */
+nav {
+  background-color: #444;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+/* Contenido principal */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  background-color: #333;
+  color: #ffd700;
+  text-align: center;
+  cursor: pointer;
+  
+}
+
+/* Enlaces dentro del contenido principal */
+main a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+main a:hover {
+  color: #0056b3;
+}
+
+/* Imágenes dentro del contenido principal */
+main img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+main img:hover {
+  transform: scale(1.05);
+}
+
+/* Botones */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Animación de carga */
+@keyframes spin {
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+/* Pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Redes sociales en el pie de página */
+.red__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__img {
+  margin: 0 10px;
+  width: 30px;
+  height: 30px;
+  filter: invert(1);
+  transition: filter 0.3s ease;
+}
+
+.footer__img:hover {
+  filter: invert(0);
+}
+
+/* Grupos y cajas dentro del pie de página */
+.grupo-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  flex: 1;
+  margin: 0 10px;
+}
+
+/* Derechos de autor */
+.grupo3 {
+  text-align: center;
+  margin-top: 20px;
+}
